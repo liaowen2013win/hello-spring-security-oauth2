@@ -14,6 +14,8 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 /**
+ * 服务器安全配置
+ *
  * @Author: L.Wen
  * @created_at: 2019/12/15 14:37
  */
