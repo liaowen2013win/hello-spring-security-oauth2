@@ -8,6 +8,7 @@
     <packaging>pom</packaging>
     <url>http://www.funtl.com</url>
     <properties>
+        <spring-boot-mapper.version>2.1.5</spring-boot-mapper.version>
         <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
     </properties>
     <licenses>
@@ -32,6 +33,13 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <!--增加tk.mybatis依赖-->
+            <dependency>
+                <groupId>tk.mybatis</groupId>
+                <artifactId>mapper-spring-boot-starter</artifactId>
+                <version>${spring-boot-mapper.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
     <repositories>
