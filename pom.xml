@@ -19,6 +19,7 @@
     <modules>
         <module>hello-spring-security-oauth2-dependencies</module>
         <module>hello-spring-security-oauth2-server</module>
+        <module>hello-spring-security-oauth2-resource</module>
     </modules>
 
     <properties>
